@@ -1,0 +1,12 @@
+.container{
+height: 150px;;
+width:200px;
+     border: orange 5px; 
+     color: blue;
+     background-color: black;
+} 
+.image{
+    height:100px;
+    width:100px;
+
+}

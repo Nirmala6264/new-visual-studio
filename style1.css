@@ -1,0 +1,13 @@
+div.dropdownmenu{
+    width: auto;
+    height: auto;
+    border: 5px solid;
+    position: relative;
+}
+.options{
+    display: none;
+    position:absolute
+}
+.dropdownmenu.hover:options{
+    display:block
+}
