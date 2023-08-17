@@ -1,12 +1,102 @@
-.container{
-height: 150px;;
-width:200px;
-     border: orange 5px; 
-     color: blue;
-     background-color: black;
-} 
-.image{
-    height:100px;
-    width:100px;
+.container {
+  background-image: url(./static/unsplash_ELf8M_YWRTY.png);
+  height: 70vh;
+  width: 50vw;
+  background-position: center;
+  overflow-y: visible;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 20px;
+  scroll-margin-left: 20px;
+}
 
+.btn {
+  font-size: smaller;
+  font-weight: 700;
+  padding-left: 20px;
+}
+
+.para {
+  font-weight: 700;
+  padding-top: 22%;
+  color: #29208f;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 32px;
+  line-height: 118px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+
+.para1 {
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 0.5px;
+  letter-spacing: 0em;
+  text-align: left;
+  color: #ffffff;
+}
+
+img {
+  height: 20%;
+  width: 25%;
+}
+
+.cate {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%
+}
+
+h1 {
+  font-style: normal;
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 48px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgb(66, 57, 174);
+}
+
+h2 {
+  font-style: normal;
+  font-size: 42px;
+  font-weight: 700;
+  line-height: 93px;
+  letter-spacing: 0em;
+  text-align: center;
+  color: rgba(20, 24, 62, 1);
+}
+
+.booktrip>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+
+.choose>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25%;
+}
+
+
+.subscribe>img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+}
+
+.footer>img {
+  padding-top: 7%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 55%;
+  padding-bottom: 25%;
 }
